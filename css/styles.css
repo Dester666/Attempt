@@ -1,4 +1,26 @@
 .html,
+/* Стили по умолчанию для мобильных устройств */
+.container {
+    width: 100%;
+    padding: 10px;
+}
+
+/* Стили для планшетов */
+@media (min-width: 600px) {
+    .container {
+        width: 80%;
+        padding: 20px;
+    }
+}
+
+/* Стили для десктопов */
+@media (min-width: 1024px) {
+    .container {
+        width: 60%;
+        padding: 30px;
+    }
+}
+
 
 .header{
     display: flex;
@@ -7,8 +29,9 @@
     margin-left: auto;
     margin-right: auto;
     width: 1280px;
-    height: 360px;
-    background-color: brown;
+    height: 700px;
+    background-image: url(https://cdn.cloudflare.steamstatic.com/steam/apps/892970/ss_cd0262c5abf8a90ee5e1059acafc5a92b6be0e73.1920x1080.jpg?t=1715688279);
+    background-position: center;
     border-radius: 20px;
     overflow: hidden;
 }
@@ -29,7 +52,7 @@
     border: 2px;
     border-color: aliceblue;
     margin-left: 50px;
-    margin-bottom: 0px;
+    margin-bottom: 40px;
 }
 
 .paragraf {
@@ -46,11 +69,11 @@
     margin-left: 50px;
     font-size: 150%;
     margin-top: 5px;
-    margin-bottom: 0px;
+    margin-bottom: 40px;
 }
 
 .colum {
-    line-height: 1px;
+    line-height: 100px;
 }
 
 .game{
@@ -63,12 +86,12 @@
     text-align: center;
     line-height: 1;
     justify-content: center;
-    border-radius: 10px;
-    padding: 10px 20px 10px 20px;
+    border-radius: 100px;
+    padding: 20px 50px 20px 50px;
     background-color: #fff;
-    width: 100px;
+    width: px;
     white-space: nowrap;
     margin-right: 40px;
-    margin-top: 40px;
+    margin-top: 250px;
 
 }
